@@ -31,3 +31,5 @@ Jakey-Pro: iOS10-Runtime-Headers jakey $
 Install wget
 
 wget use brew install wget to install and use
+
+translated by translate.google.com
