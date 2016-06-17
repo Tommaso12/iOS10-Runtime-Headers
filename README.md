@@ -1,31 +1,33 @@
-# iOS10-Runtime-Headers
- iOS 10 Runtime Headers 
+## iOS10-Runtime-Headers
 
-##导出方法
-1.克隆RuntimeBrowser 并且运行到iOS版本到真机上 https://github.com/nst/RuntimeBrowser/
+### Developer Preview 1
 
-2.iOS OCRuntime App中 > Frameworks 页签 > Load All
+Export Method
 
-3.在应用的About中会显示 一个IP地址(GCDWebServer的IP),在相同网段的Mac上浏览器输入即可各种frameworks的API
+1. Cloning RuntimeBrowser and run on iOS version to the real machine https://github.com/nst/RuntimeBrowser/
 
-4.终端使用 wget -r http://192.168.1.102:10000/tree/ 即可下载到本地
+2.iOS OCRuntime App in> Frameworks tab> Load All
 
-因为文件较多,偶尔会造成app闪退,为了下全每个文件夹设置一个重试次数比如50次
+3. displays an IP address (GCDWebServer of IP) in the About the application, on the same network segment as Mac browser to input various frameworks of API
+
+4. The terminal uses wget -r http://192.168.1.102:10000/tree/ be downloaded to the local
+
+Because many files occasionally cause app flash back, in order to set up full each folder, such as a number of retries 50 times
 
 wget -r -t50 http://192.168.1.102:10000/tree/
 
-当APP闪退的时候,重试50次期间再次运行APP即可继续下载
+When APP flash back when running retry 50 times during the APP to continue downloading
 
-5.等待所有文件下载完毕即可
+5. Wait for all files can be downloaded
 
-FINISHED --2016-06-14 20:22:32--
+FINISHED --2016-06-14 20: 22: 32--
 
 Total wall clock time: 27m 54s
 
-Downloaded: 42401 files, 444M in 3m 18s (2.24 MB/s)
+Downloaded: 42401 files, 444M in 3m 18s (2.24 MB / s)
 
-Jakey-Pro:iOS10-Runtime-Headers jakey$ 
+Jakey-Pro: iOS10-Runtime-Headers jakey $
 
-##安装wget
-wget使用brew install wget 即可安装使用
+Install wget
 
+wget use brew install wget to install and use
