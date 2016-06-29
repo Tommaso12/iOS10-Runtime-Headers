@@ -6,9 +6,9 @@ Export Method
 
 1. Cloning RuntimeBrowser and run on iOS version to the [real machine](https://github.com/nst/RuntimeBrowser/)
 
-2.iOS OCRuntime App in> Frameworks tab> Load All
+2. iOS OCRuntime App in> Frameworks tab> Load All
 
-3. displays an IP address (GCDWebServer of IP) in the About the application, on the same network segment as Mac browser to input various frameworks of API
+3. Displays an IP address (GCDWebServer of IP) in the About the application, on the same network segment as Mac browser to input various frameworks of API
 
 4. The terminal uses `wget -r http://192.168.1.102:10000/tree/` be downloaded to the local
 
@@ -18,7 +18,7 @@ Because many files occasionally cause app flash back, in order to set up full ea
 
 When APP flash back when running retry 50 times during the APP to continue downloading
 
-5. Wait for all files can be downloaded
+5. Wait for all files to be downloaded
 
 ```
 FINISHED --2016-06-14 20: 22: 32--
@@ -29,8 +29,8 @@ Downloaded: 42401 files, 444M in 3m 18s (2.24 MB / s)
 
 Jakey-Pro: iOS10-Runtime-Headers jakey $
 ```
-Install wget
+Install `wget`
 
-wget use brew install wget to install and use
+`wget` use `brew install wget` to install and use
 
 translated by translate.google.com
