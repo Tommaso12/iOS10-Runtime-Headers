@@ -12,25 +12,25 @@ Export Method
 
 4. The terminal uses `wget -r http://192.168.1.102:10000/tree/` be downloaded to the local
 
-Because many files occasionally cause app flash back, in order to set up full each folder, such as a number of retries 50 times
+  Because many files occasionally cause app flash back, in order to set up full each folder, such as a number of retries 50 times
 
-`wget -r -t50 http://192.168.1.102:10000/tree/`
+  `wget -r -t50 http://192.168.1.102:10000/tree/`
 
-When APP flash back when running retry 50 times during the APP to continue downloading
+  When APP flash back when running retry 50 times during the APP to continue downloading
 
 5. Wait for all files to be downloaded
 
-```
-FINISHED --2016-06-14 20: 22: 32--
+  ```
+  FINISHED --2016-06-14 20: 22: 32--
 
-Total wall clock time: 27m 54s
+  Total wall clock time: 27m 54s
 
-Downloaded: 42401 files, 444M in 3m 18s (2.24 MB / s)
+  Downloaded: 42401 files, 444M in 3m 18s (2.24 MB / s)
 
-Jakey-Pro: iOS10-Runtime-Headers jakey $
-```
-Install `wget`
+  Jakey-Pro: iOS10-Runtime-Headers jakey $
+  ```
+  Install `wget`
 
-`wget` use `brew install wget` to install and use
+  `wget` use `brew install wget` to install and use
 
 translated by translate.google.com
