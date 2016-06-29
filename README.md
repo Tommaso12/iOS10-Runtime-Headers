@@ -29,8 +29,6 @@ Export Method
 
   Jakey-Pro: iOS10-Runtime-Headers jakey $
   ```
-  Install `wget`
-
-  `wget` use `brew install wget` to install and use
+  To install `wget` use `brew install wget`
 
 translated by translate.google.com
